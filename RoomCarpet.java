@@ -1,17 +1,17 @@
-public class RoomCarpet () {
+public class RoomCarpet {
    double carpetCost;
    RoomDimension size;
    
-   public static void main (RoomDimension dim, double cost) {
-      RoomDimension.size = dim();
-      double carpetCost = cost;
+   public RoomCarpet(RoomDimension dim, double cost) {
+      this.size = dim;
+      this.carpetCost = cost;
    }
    
    public double getTotalCost(RoomDimension size){
-      return (send.getArea() * carpetCost);
+      return (size.getArea() * carpetCost);
    }
    
-   public toString(){
-      System.out.println("");
+   public String toString(){
+      return ("Total cost: $" + getTotalCost(size));
    }
 }
