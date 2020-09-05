@@ -1,5 +1,10 @@
 import java.util.Scanner;
-
+/*
+Name: Rafael Sevilla
+CptS 233: MicroAssignment #1
+Date: 9.4.20
+gitRepo url: https://github.com/Raffi1721/Micro-1.git
+*/
 public class Main {
 
    public static void main(String[] args) {
